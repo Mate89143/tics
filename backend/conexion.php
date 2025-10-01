@@ -1,10 +1,14 @@
 <?php
 $host = "localhost";
-$user = "tu_usuario";
-$password = "tu_contraseña";
-$db = "nombre_base_datos";
-$conn = new mysqli($host, $user, $password, $db);
+$user = "root";
+$pass = "";
+$db   = "tienda";
+
+$conn = new mysqli($host, $user, $pass, $db);
+
 if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
+    die("❌ Error en la conexión: " . $conn->connect_error);
 }
+
+$conn->set_charset("utf8");
 ?>
