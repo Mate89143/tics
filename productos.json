@@ -1,0 +1,73 @@
+[
+  { "id": 1, "nombre": "Croquetas Premium para Perros", "categoria": "perros", "precio": 120000, "stock": 50, "descripcion": "Alimento balanceado con proteínas de alta calidad" },
+  { "id": 2, "nombre": "Collar Antipulgas", "categoria": "perros", "precio": 25000, "stock": 100, "descripcion": "Protección contra pulgas y garrapatas hasta 8 meses" },
+  { "id": 3, "nombre": "Juguete Mordedor de Caucho", "categoria": "perros", "precio": 18000, "stock": 75, "descripcion": "Juguete resistente para fortalecer la mandíbula" },
+  { "id": 4, "nombre": "Correa Retráctil", "categoria": "perros", "precio": 40000, "stock": 40, "descripcion": "Correa extensible de 5 metros para paseos" },
+  { "id": 5, "nombre": "Cama Acolchada Grande", "categoria": "perros", "precio": 95000, "stock": 20, "descripcion": "Cama suave y cómoda para razas grandes" },
+
+  { "id": 6, "nombre": "Arena Sanitaria Premium", "categoria": "gatos", "precio": 35000, "stock": 60, "descripcion": "Arena aglomerante con control de olores" },
+  { "id": 7, "nombre": "Rascador con Poste", "categoria": "gatos", "precio": 70000, "stock": 15, "descripcion": "Rascador alto con base estable para gatos" },
+  { "id": 8, "nombre": "Croquetas de Salmón", "categoria": "gatos", "precio": 95000, "stock": 45, "descripcion": "Alimento seco con omega 3 para pelaje brillante" },
+  { "id": 9, "nombre": "Juguete Ratón con Plumas", "categoria": "gatos", "precio": 12000, "stock": 100, "descripcion": "Juguete interactivo para estimular la caza" },
+  { "id": 10, "nombre": "Transportadora Mediana", "categoria": "gatos", "precio": 80000, "stock": 25, "descripcion": "Transportadora plástica con ventilación segura" },
+
+  { "id": 11, "nombre": "Mezcla de Semillas para Aves", "categoria": "aves", "precio": 20000, "stock": 70, "descripcion": "Alimento natural para periquitos y canarios" },
+  { "id": 12, "nombre": "Jaula Pequeña Blanca", "categoria": "aves", "precio": 95000, "stock": 18, "descripcion": "Jaula metálica con perchas y comederos incluidos" },
+  { "id": 13, "nombre": "Vitamina Líquida para Aves", "categoria": "aves", "precio": 15000, "stock": 60, "descripcion": "Suplemento nutricional en gotas" },
+  { "id": 14, "nombre": "Baño Exterior para Canarios", "categoria": "aves", "precio": 18000, "stock": 40, "descripcion": "Baño de plástico transparente adaptable a jaula" },
+  { "id": 15, "nombre": "Juguete Colgante con Espejo", "categoria": "aves", "precio": 25000, "stock": 35, "descripcion": "Juguete interactivo para loros y periquitos" },
+
+  { "id": 16, "nombre": "Comida para Hámsters", "categoria": "hamsters", "precio": 15000, "stock": 80, "descripcion": "Mezcla balanceada de semillas y pellets" },
+  { "id": 17, "nombre": "Jaula con Túneles", "categoria": "hamsters", "precio": 120000, "stock": 12, "descripcion": "Jaula multiespacios con ruedas y túneles" },
+  { "id": 18, "nombre": "Rueda de Ejercicio", "categoria": "hamsters", "precio": 25000, "stock": 40, "descripcion": "Rueda plástica silenciosa para actividad física" },
+  { "id": 19, "nombre": "Casita de Madera", "categoria": "hamsters", "precio": 30000, "stock": 25, "descripcion": "Refugio pequeño de madera natural" },
+  { "id": 20, "nombre": "Bebedero Automático", "categoria": "hamsters", "precio": 18000, "stock": 50, "descripcion": "Dispensador de agua con boquilla de acero" },
+
+  { "id": 21, "nombre": "Shampoo Hipoalergénico", "categoria": "perros", "precio": 28000, "stock": 30, "descripcion": "Limpieza suave para piel sensible" },
+  { "id": 22, "nombre": "Snack de Pollo Deshidratado", "categoria": "perros", "precio": 22000, "stock": 55, "descripcion": "Premio saludable para perros" },
+  { "id": 23, "nombre": "Cepillo Desenredante", "categoria": "perros", "precio": 32000, "stock": 25, "descripcion": "Cepillo ideal para pelo largo" },
+  { "id": 24, "nombre": "Arnés Ajustable", "categoria": "perros", "precio": 45000, "stock": 35, "descripcion": "Arnés acolchado con correas ajustables" },
+  { "id": 25, "nombre": "Pelota con Sonido", "categoria": "perros", "precio": 12000, "stock": 90, "descripcion": "Pelota resistente con sonido para juegos" },
+
+  { "id": 26, "nombre": "Cama Pequeña Redonda", "categoria": "gatos", "precio": 65000, "stock": 20, "descripcion": "Cama circular con felpa suave" },
+  { "id": 27, "nombre": "Snacks de Atún", "categoria": "gatos", "precio": 20000, "stock": 60, "descripcion": "Premios crocantes de atún" },
+  { "id": 28, "nombre": "Fuente de Agua Automática", "categoria": "gatos", "precio": 85000, "stock": 18, "descripcion": "Bebedero eléctrico con filtro de carbón" },
+  { "id": 29, "nombre": "Cepillo Quitapelos", "categoria": "gatos", "precio": 28000, "stock": 30, "descripcion": "Cepillo para reducir la caída del pelo" },
+  { "id": 30, "nombre": "Collar con Cascabel", "categoria": "gatos", "precio": 15000, "stock": 70, "descripcion": "Collar de nylon con cascabel metálico" },
+
+  { "id": 31, "nombre": "Nido para Aves", "categoria": "aves", "precio": 25000, "stock": 20, "descripcion": "Nido natural de fibras vegetales" },
+  { "id": 32, "nombre": "Snack de Mijo en Rama", "categoria": "aves", "precio": 12000, "stock": 100, "descripcion": "Snack nutritivo para periquitos" },
+  { "id": 33, "nombre": "Bebedero Colgante", "categoria": "aves", "precio": 15000, "stock": 50, "descripcion": "Dispensador de agua fácil de colocar" },
+  { "id": 34, "nombre": "Comedero Doble", "categoria": "aves", "precio": 18000, "stock": 45, "descripcion": "Comedero doble de plástico resistente" },
+  { "id": 35, "nombre": "Columpio de Madera", "categoria": "aves", "precio": 20000, "stock": 35, "descripcion": "Columpio natural para aves pequeñas" },
+
+  { "id": 36, "nombre": "Ropa para Hámsters", "categoria": "hamsters", "precio": 10000, "stock": 15, "descripcion": "Pequeños accesorios divertidos" },
+  { "id": 37, "nombre": "Pellets Nutritivos", "categoria": "hamsters", "precio": 17000, "stock": 65, "descripcion": "Alimento concentrado para energía" },
+  { "id": 38, "nombre": "Escalera de Madera", "categoria": "hamsters", "precio": 22000, "stock": 20, "descripcion": "Accesorio para jaulas con varios niveles" },
+  { "id": 39, "nombre": "Tunel Transparente", "categoria": "hamsters", "precio": 28000, "stock": 25, "descripcion": "Túnel modular para juegos" },
+  { "id": 40, "nombre": "Sustrato de Papel", "categoria": "hamsters", "precio": 30000, "stock": 40, "descripcion": "Material absorbente y seguro" },
+
+  { "id": 41, "nombre": "Collar de Cuero", "categoria": "perros", "precio": 35000, "stock": 30, "descripcion": "Collar elegante y resistente" },
+  { "id": 42, "nombre": "Ropa para Perro", "categoria": "perros", "precio": 50000, "stock": 20, "descripcion": "Abrigo cómodo para invierno" },
+  { "id": 43, "nombre": "Bebedero Plegable", "categoria": "perros", "precio": 15000, "stock": 50, "descripcion": "Bebedero portátil de silicona" },
+  { "id": 44, "nombre": "Transportadora Grande", "categoria": "perros", "precio": 150000, "stock": 10, "descripcion": "Caja de transporte amplia y segura" },
+  { "id": 45, "nombre": "Juguete de Cuerda", "categoria": "perros", "precio": 18000, "stock": 60, "descripcion": "Cuerda para tirar y morder" },
+
+  { "id": 46, "nombre": "Rascador con Cueva", "categoria": "gatos", "precio": 120000, "stock": 12, "descripcion": "Rascador grande con espacio para dormir" },
+  { "id": 47, "nombre": "Leche para Gatos", "categoria": "gatos", "precio": 20000, "stock": 45, "descripcion": "Sustituto de leche sin lactosa" },
+  { "id": 48, "nombre": "Juguete Láser", "categoria": "gatos", "precio": 30000, "stock": 25, "descripcion": "Puntero láser interactivo" },
+  { "id": 49, "nombre": "Snack Dental", "categoria": "gatos", "precio": 25000, "stock": 50, "descripcion": "Snacks para limpieza dental" },
+  { "id": 50, "nombre": "Bolso Transportador", "categoria": "gatos", "precio": 110000, "stock": 15, "descripcion": "Bolso acolchado y ventilado" },
+
+  { "id": 51, "nombre": "Jaula Grande para Loros", "categoria": "aves", "precio": 200000, "stock": 8, "descripcion": "Jaula metálica con múltiples perchas" },
+  { "id": 52, "nombre": "Campana Colgante", "categoria": "aves", "precio": 15000, "stock": 70, "descripcion": "Campana metálica divertida" },
+  { "id": 53, "nombre": "Suplemento de Calcio", "categoria": "aves", "precio": 18000, "stock": 30, "descripcion": "Polvo de calcio para fortalecer huesos" },
+  { "id": 54, "nombre": "Percha Natural", "categoria": "aves", "precio": 20000, "stock": 25, "descripcion": "Percha de madera natural" },
+  { "id": 55, "nombre": "Snacks Frutales", "categoria": "aves", "precio": 25000, "stock": 40, "descripcion": "Mezcla de frutas deshidratadas" },
+
+  { "id": 56, "nombre": "Túnel de Tela", "categoria": "hamsters", "precio": 20000, "stock": 30, "descripcion": "Túnel suave para juegos" },
+  { "id": 57, "nombre": "Snack de Zanahoria", "categoria": "hamsters", "precio": 12000, "stock": 50, "descripcion": "Snack saludable y natural" },
+  { "id": 58, "nombre": "Rueda Metálica", "categoria": "hamsters", "precio": 30000, "stock": 20, "descripcion": "Rueda duradera para ejercicio" },
+  { "id": 59, "nombre": "Puente Colgante", "categoria": "hamsters", "precio": 25000, "stock": 15, "descripcion": "Accesorio para jaulas multiespacio" },
+  { "id": 60, "nombre": "Casita de Plástico", "categoria": "hamsters", "precio": 18000, "stock": 35, "descripcion": "Refugio ligero y seguro" }
+]

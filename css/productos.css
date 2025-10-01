@@ -1,0 +1,119 @@
+/* --- General --- */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #ff6f61, #ff9a8b);
+  color: white;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+}
+
+header p {
+  margin: 8px 0 0;
+  font-size: 1.1em;
+}
+
+/* --- CRUD --- */
+form.form-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+form.form-grid input, 
+form.form-grid select, 
+form.form-grid textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #444;
+  color: white;
+}
+
+/* --- Botones --- */
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.crear { background: #28a745; color: white; }
+.actualizar { background: #007bff; color: white; }
+.eliminar { background: #dc3545; color: white; text-decoration: none; }
+.comprar { background: #ff6f61; color: white; }
+
+/* --- Cards Productos --- */
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.3em;
+  color: #444;
+}
+
+.card .precio {
+  color: #ff6f61;
+  font-weight: bold;
+  margin: 10px 0;
+}
