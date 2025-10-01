@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda de Mascotas</title>
+  <link rel="stylesheet" href="css/productos.css">
+</head>
+<body>
+  <header>
+    <h1>🐾 Tienda de Mascotas</h1>
+    <p>Explora nuestra variedad de productos</p>
+  </header>
+
+  <main>
+    <section class="grid-productos" id="lista-productos"></section>
+  </main>
+
+  <script>
+    fetch("backend/crud_products.php")
+      .then(res => res.json())
+      .then(data => {
+        let cont = document.getElementById("lista-productos");
+        data.forEach(prod => {
+          cont.innerHTML += `
+            <div class="card">
+              <img src="https://placekitten.com/250/180" alt="${prod.nombre}">
+              <h3>${prod.nombre}</h3>
+              <p class="precio">$${prod.precio}</p>
+              <p>Stock: ${prod.stock}</p>
+              <p>${prod.descripcion}</p>
+              <button class="btn comprar">Añadir al carrito</button>
+            </div>`;
+        });
+      });
+  </script>
+</body>
+</html>
